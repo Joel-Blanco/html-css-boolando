@@ -115,6 +115,17 @@ header i {
     font-weight: normal;
 }
 
+.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card:hover .hover-img {
+    display: none;
+}
+
+
 /* card-tags */
 .sale-tag {
     background-color: red;
@@ -132,6 +143,12 @@ header i {
     font-size: 0.9rem;
     padding: 5px 9px;
     position: absolute;
+    bottom: 100px;
+    left: 0;
+    
+}
+
+.tag-plus {
     bottom: 100px;
     left: 58px;
 }
@@ -155,7 +172,7 @@ footer {
 
 footer i {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 footer h4, li {

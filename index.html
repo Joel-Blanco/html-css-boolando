@@ -12,18 +12,22 @@
 
 <body>
     <!-- HEADER -->
-    <header class="flex just-cont-center align-items-center">
+    <header class="flex align-items-center">
         <!-- navbar -->
         <nav class="container flex just-cont-between align-items-center">
-            <ul class="nav-menu flex gap-10">
+
+            <!-- nav-menu -->
+            <ul class="flex gap-10">
                 <li>Donna</li>
                 <li>Uomo</li>
                 <li>Bambini</li>
             </ul>
 
+            <!-- logo -->
             <a href="" class="logo"><img src="./img/boolean-logo.png" alt=""></a>
 
-            <ul class="nav-user flex gap-10 just-cont-end">
+            <!-- nav-user -->
+            <ul class="flex gap-10 just-cont-end">
                 <li><a href=""><i class="fa-regular fa-user"></i></a></li>
                 <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
@@ -35,6 +39,7 @@
     <main>
         <!-- cards-section -->
         <section class="cards-section container flex just-cont-center">
+            <!-- cards -->
             <div class="card"><a href=""><img src="./img/1.webp" alt="product 1">
                 </a>
                 <p>Levi's</p>
@@ -81,13 +86,42 @@
                 <p>Esprit</p>
                 <strong>MAGLIONE - BLACK</strong>
                 <h5 class="discount">29,99 €</h5>
+                <strong class="eco-tag">Sostenibilità</strong>
                 <span class="favorites-tag">&hearts;</span>
             </div>
         </section>
     </main>
 
-    <footer>
+    <!-- FOOTER -->
+    <footer class="flex align-items-center">
+        <section class="container flex just-cont-between align-items-center">
+            <!-- footer-info -->
+            <div>
+                <h3 class="pb-10">Boolando s.r.l</h3>
+                <ul class="flex gap-10">
+                    <li>Informazioni legali</li>
+                    <li>Normativa sulla privacy</li>
+                    <li>Diritto di recesso</li>
+                </ul>
+            </div>
 
+            <!-- footer-social -->
+            <div>
+                <h4 class="pb-10">Trovaci anche su</h4>
+                <ul class="flex gap-10">
+                    <li><a href=""><i class="fa-brands fa-square-twitter"></i>
+                        </a></li>
+                    <li><a href=""><i class="fa-brands fa-square-facebook"></i>
+                        </a></li>
+                    <li><a href=""><i class="fa-brands fa-square-instagram"></i>
+                        </a></li>
+                    <li><a href=""><i class="fa-brands fa-square-pinterest"></i>
+                        </a></li>
+                    <li><a href=""><i class="fa-brands fa-square-youtube"></i>
+                        </a></li>
+                </ul>
+            </div>
+        </section>
     </footer>
 </body>
 

@@ -26,7 +26,7 @@ ul {
     margin: 0 auto;
 
     /* debug */
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 
 /* flex */
@@ -65,6 +65,10 @@ ul {
     padding-right: 10px;
 }
 
+.pb-10 {
+    padding-bottom: 10px;
+}
+
 /* HEADER */
 header {
     height: 75px;
@@ -90,7 +94,8 @@ header i {
 /* MAIN */
 /* cards-section */
 .cards-section {
-    margin-top: 135px;
+    padding-top: 135px;
+    padding-bottom: 60px;
     flex-wrap:wrap;
     gap: 20px;
 }
@@ -142,3 +147,18 @@ header i {
 }
 
 /* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    padding: 35px;
+}
+
+footer i {
+    color: white;
+    font-size: 1.4rem;
+}
+
+footer h4, li {
+    font-size: 0.9rem;
+}
+

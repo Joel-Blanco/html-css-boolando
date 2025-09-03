@@ -1,0 +1,144 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* COMMON */
+/* layout */
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    /* debug */
+    border: solid 1px black;
+}
+
+/* flex */
+.flex {
+    display: flex;
+}
+
+.just-cont-center {
+    justify-content: center;
+}
+
+.just-cont-between {
+    justify-content: space-between;
+}
+
+.just-cont-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+/* utilities */
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* HEADER */
+header {
+    height: 75px;
+    background-color: rgb(255, 101, 30);
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 999;
+}
+
+header i {
+    color: white;
+}
+
+.logo img {
+    width: 140px;
+}
+
+
+/* MAIN */
+/* cards-section */
+.cards-section {
+    margin-top: 135px;
+    flex-wrap:wrap;
+    gap: 20px;
+}
+
+/* cards */
+.card {
+    width: calc((100% - 40px) / 3);
+    position: relative;
+}
+
+.discount {
+    color: red;
+}
+
+.discount del {
+    color: black;
+    font-weight: normal;
+}
+
+/* card-tags */
+.sale-tag {
+    background-color: red;
+    color: white;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+
+.eco-tag {
+    background-color: green;
+    color: white;
+    font-size: 0.9rem;
+    padding: 5px 9px;
+    position: absolute;
+    bottom: 100px;
+    left: 58px;
+}
+
+.favorites-tag {
+    background-color: white;
+    color: black;
+    font-size: 2.2rem;
+    padding: 5px 15px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+/* FOOTER */
